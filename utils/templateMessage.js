@@ -1,7 +1,7 @@
 function templateMessage({ name, jalur }) {
-    const link = "https://chat.whatsapp.com/BjhqZedSQPiIp1xOtu9KA1";
+    const link = "https://chat.whatsapp.com/KsSuyVJ8BRhIawdv56qItH";
 
-    return `Assalamu 'alaikum Warahmatullahi Wabarakatuh, Selamat malam ${name} 
+    return `Assalamu 'alaikum Warahmatullahi Wabarakatuh, Selamat siang ${name} 
 
   karena kamu lulus di Jurusan Teknik Komputer dan Jaringan di SMKN 4 GOWA melalui jalur ${jalur} 
 

@@ -18,7 +18,7 @@ client.on("ready", () => {
     data.forEach((d) => {
         const message = templateMessage({
             name: d.name,
-            jalur: d.jalur,
+            jalur: "Prestasi Akademik",
         });
 
         sendMessage({ number: d.number, message, client });
