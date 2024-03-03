@@ -6,6 +6,11 @@ const templateMessage = require("./utils/templateMessage");
 
 const client = new Client({
     authStrategy: new LocalAuth(),
+    webVersionCache: {
+        type: "remote",
+        remotePath:
+            "https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/2.3000.1014840070-alpha.html",
+    },
 });
 
 client.on("qr", (qr) => {
@@ -18,7 +23,6 @@ client.on("ready", () => {
     data.forEach((d) => {
         const message = templateMessage({
             name: d.name,
-            jalur: "Prestasi Akademik",
         });
 
         sendMessage({ number: d.number, message, client });
