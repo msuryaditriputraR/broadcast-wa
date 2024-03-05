@@ -5,7 +5,6 @@ const data = require("./stored/data");
 const templateMessage = require("./utils/templateMessage");
 
 const client = new Client({
-    authStrategy: new LocalAuth(),
     webVersionCache: {
         type: "remote",
         remotePath:
