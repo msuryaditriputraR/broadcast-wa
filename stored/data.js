@@ -1,16 +1,16 @@
 const data = [
-    { name: "APRIYANSA", number: "6289686189260" },
-    { name: "SITI MAEMUNA", number: "6285298291912" },
-    { name: "FAHIRA AISYAH RAMADANI SARDI", number: "6288435271043" },
-    { name: "Amanda Ramdhani P.A", number: "6285345603746" },
-    { name: "AL MUIMMAH SYAHRIR", number: "62895418520857" },
-    { name: "NUR FADILAH AMIRUDDIN", number: "6285210958713" },
-    { name: "SOFWAN", number: "6289623133666" },
-    { name: "MUH. ALI", number: "6281543215227" },
-    { name: "Muh Aliv Dava B", number: "6285757036782" },
-    { name: "Syahruni Azzahra Wahyu", number: "62882019337577" },
-    { name: "MUH. SAUWAL", number: "6283132800787" },
-    { name: "IHSAN", number: "6282197496303" },
+    { name: "Faizah Nurul mentari", number: "6289522763215" },
+    { name: "Farida", number: "6282189625533" },
+    { name: "Nadia", number: "6288804203629" },
+    { name: "Misyaratul umma", number: "628875693710" },
+    { name: "Fadlan athoriq", number: "6287812172290" },
+    { name: "Husain", number: "62882020720967" },
+    { name: "Hana halifah", number: "6285758609617" },
+    { name: "Zulkifli", number: "62895605111760" },
+    { name: "Abd. Hakim", number: "62882021285882" },
+    { name: "Akmal", number: "6285825491600" },
+    { name: "Risky Al Fauzi", number: "6282348025280" },
+    { name: "Bayu Saputra", number: "6288804609428" },
 ];
 
 module.exports = data;
