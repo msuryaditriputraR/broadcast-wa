@@ -1,15 +1,14 @@
-function templateMessage({ name, jalur }) {
-    const link = "https://chat.whatsapp.com/KsSuyVJ8BRhIawdv56qItH";
+function templateMessage({ name }) {
+    const link = "https://chat.whatsapp.com/GOAVDk7xtwR3Hr0al9PIzE";
 
-    return `Assalamu 'alaikum Warahmatullahi Wabarakatuh, Selamat siang ${name} 
+    return `Assalamu 'alaikum Warahmatullahi Wabarakatuh, Selamat malam ${name} 
 
-  karena kamu lulus di Jurusan Teknik Komputer dan Jaringan di SMKN 4 GOWA melalui jalur ${jalur} 
-
-  Silahkan bergabung ke grup TKJ SMKN 4 GOWA 2023 melalui link berikut 
-
-  ${link}
-
-  *Jangan sebarkan link grup ini ke teman yang belum lulus, grup ini hanya untuk yang sudah lulus di TKJ!!
+    untuk menindaklanjuti penyampaian Wali Kelas kamu untuk mengikuti kegiatan *Kelas Ceria SMKN 4 GOWA*
+    Maka dari itu, Silahkan bergabung ke grup melalui link berikut untuk mendapatkan informasi lebih lanjut
+    
+    ${link}
+    
+    Terima Kasih!
   `;
 }
 
